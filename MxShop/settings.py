@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'goods.apps.GoodsConfig',  # 商品模型
     'trade.apps.TradeConfig',  # 交易模型
     'user_operation.apps.UserOperationConfig',  # 用户操作模型
-
+    'crispy_forms',
+    'xadmin',
 ]
 
 MIDDLEWARE = [
